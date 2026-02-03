@@ -45,7 +45,7 @@ const projects_data = [
     },
     {
         name: "quizzical",
-        short_desc: "A Quiz app, which provides you an opportunity to play a quiz.",
+        short_desc: "Quiz App.",
         full_desc: "This is a solo project from the Scrimba course - a trivia app called Quizzical. The app pulls trivia questions from a database and displays them as a short quiz. After answering the questions, the user can check their answers. The project utilizes conditional rendering, hooks, components, API, and packages as the main technologies.",
         img: "/images/quizzical.png",
         gif: "/gifs/quizzical.gif",
