@@ -11,7 +11,7 @@ export default function Footer() {
                 <p className="footer-desc">Please reach out if you have any questions! I would gladly jump on a video call to speak with you!</p>
             </div>
             <ul className="footer-links-list links-wrapper">
-                <li className="footer-links-list-item"><Link to="mailto:agelesskid@proton.me"><FontAwesomeIcon icon={faEnvelope} className="fa-2x"/></Link></li>
+                <li className="footer-links-list-item"><Link to="mailto:ageless.work@pm.me"><FontAwesomeIcon icon={faEnvelope} className="fa-2x"/></Link></li>
                 <li className="footer-links-list-item"><Link to="https://github.com/agelesskid"><FontAwesomeIcon icon={faGithub} className="fa-2x"/></Link></li>
             </ul>
         </footer>
