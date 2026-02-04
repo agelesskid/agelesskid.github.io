@@ -1,4 +1,4 @@
-import projects_data from "./data/proejcts_data";
+import projects_data from "./data/projects_data";
 import { nanoid } from "nanoid"
 import { createContext, useEffect, useState } from "react";
 const Context = createContext()

@@ -168,7 +168,7 @@ div.about-secondary-desc-wrapper > p {
 
 h2.projects-main-heading {
   text-align: center;
-  margin-bottom: .5em;
+  margin: .5em;
 }
 
 ul.projects-wrapper {
@@ -178,10 +178,6 @@ ul.projects-wrapper {
   gap: 1em;
 }
 
-li.project, li.project img {
-  border-radius: 1rem;
-}
-
 li.project {
   position: relative;
   width: 32%;
@@ -189,6 +185,8 @@ li.project {
   overflow: hidden;
   cursor: pointer;
   transform: rotate(0); /* Border radius on transform bug fix https://stackoverflow.com/a/56314016/21418256 */
+  border-radius: 1rem;
+  border: .2em solid var(--main-highlight-color);
 }
 
 li.project img {
@@ -201,7 +199,7 @@ li.project img {
 
 li.project img:hover {
   opacity: .5;
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 #project-home {
